@@ -118,14 +118,14 @@ def main():
 
     if drift_detected:
 
-        print("\n⚠️ Data drift detected!")
+        print("\nWARNING: Data drift detected!")
         print("Starting automatic model retraining...")
 
         retrain_model()
 
     else:
 
-        print("\n✅ No data drift detected.")
+        print("\nNo data drift detected.")
         print("Existing model will be used.")
 
 

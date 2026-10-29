@@ -1,2 +1,14 @@
 /training_data.csv
 /new_data.csv
+# Python virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Temporary watcher status
+watcher_status.txt
+
+# MLflow local artifacts
+mlruns/

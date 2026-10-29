@@ -18,3 +18,9 @@ models/model.pkl
 
 # Logs
 *.log
+
+# Incoming test data
+incoming_data/
+
+# Temporary watcher status
+watcher_status.txt
